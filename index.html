@@ -1,142 +1,184 @@
-# Privacy Policy - Learn Spanish Extension
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - Learn Spanish Extension</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #004080;
+    }
+    h1 {
+      font-size: 2em;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3em;
+    }
+    h2 {
+      margin-top: 2em;
+    }
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .summary {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
 
-**Last updated: January 2024**
+  <h1>Privacy Policy - Learn Spanish Extension</h1>
+  <p><strong>Last updated: January 2024</strong></p>
 
-## Overview
+  <h2>Overview</h2>
+  <p>This Privacy Policy describes how the "Learn Spanish" Chrome Extension ("we," "our," or "the extension") handles information. We are committed to protecting your privacy and being transparent about our data practices.</p>
 
-This Privacy Policy describes how the "Learn Spanish" Chrome Extension ("we," "our," or "the extension") handles information. We are committed to protecting your privacy and being transparent about our data practices.
+  <h2>Data Collection</h2>
+  <p><strong>The Learn Spanish Extension does NOT collect any personal information or transmit any data to external servers.</strong></p>
+  <p>All data is stored locally on your device using Chrome's built-in storage API.</p>
 
-## Data Collection
+  <h2>What We Store Locally</h2>
 
-**The Learn Spanish Extension does NOT collect any personal information or transmit any data to external servers.**
+  <h3>Learning Progress Data</h3>
+  <ul>
+    <li>Your selected Spanish proficiency level (A1–C2)</li>
+    <li>Subcategory preference (Beginner, Intermediate, Advanced)</li>
+    <li>Words you have learned and their mastery levels</li>
+    <li>Quiz scores and completion statistics</li>
+    <li>Learning streaks and daily progress</li>
+  </ul>
 
-All data is stored locally on your device using Chrome's built-in storage API.
+  <h3>Gamification Data</h3>
+  <ul>
+    <li>Experience points (XP) and user level</li>
+    <li>Unlocked achievements and dates achieved</li>
+    <li>Daily challenge progress and completion status</li>
+    <li>Perfect quiz counts and other game statistics</li>
+  </ul>
 
-## What We Store Locally
+  <h3>User Preferences</h3>
+  <ul>
+    <li>Daily word learning goals (1–10 words per day)</li>
+    <li>Notification time preferences</li>
+    <li>Audio settings (sound effects on/off)</li>
+    <li>Motivational message preferences</li>
+    <li>Active tab preferences</li>
+  </ul>
 
-The extension stores the following information locally on your device:
+  <h3>Quiz and Test Data</h3>
+  <ul>
+    <li>In-progress quiz states (to resume if popup is closed)</li>
+    <li>Level test answers and progress (during assessment)</li>
+    <li>Question templates and user responses</li>
+  </ul>
 
-### Learning Progress Data
-- Your selected Spanish proficiency level (A1, A2, B1, B2, C1, C2)
-- Subcategory preference (Beginner, Intermediate, Advanced)
-- Words you have learned and their mastery levels
-- Quiz scores and completion statistics
-- Learning streaks and daily progress
+  <h2>What We DON'T Collect</h2>
+  <p>We explicitly do NOT collect, store, or transmit:</p>
+  <ul>
+    <li>Personal information (name, email, phone)</li>
+    <li>Browsing history or website visit data</li>
+    <li>Location or device information</li>
+    <li>Usage analytics or behavioral tracking</li>
+    <li>Anything that identifies you personally</li>
+    <li>Data to or from external servers</li>
+  </ul>
 
-### Gamification Data
-- Experience points (XP) and user level
-- Unlocked achievements and dates achieved
-- Daily challenge progress and completion status
-- Perfect quiz counts and other game statistics
+  <h2>Data Storage</h2>
+  <p>All data is stored using Chrome's <code>chrome.storage.sync</code> API:</p>
+  <ul>
+    <li>Locally on your device</li>
+    <li>Syncs across Chrome browsers if using the same Google account</li>
+    <li>Managed by Chrome, without our server involvement</li>
+  </ul>
 
-### User Preferences
-- Daily word learning goals (1-10 words per day)
-- Notification time preferences
-- Audio settings (sound effects on/off)
-- Motivational message preferences
-- Active tab preferences
+  <h2>Data Sharing</h2>
+  <p><strong>We do not share any data with third parties</strong> because we don’t collect any data to share.</p>
 
-### Quiz and Test Data
-- In-progress quiz states (to resume if popup is closed)
-- Level test answers and progress (during assessment)
-- Question templates and user responses
+  <h2>Third-Party Services</h2>
+  <p>The extension does not integrate with or send data to any third-party services, analytics platforms, or external APIs.</p>
 
-## What We DON'T Collect
+  <h2>Permissions Explained</h2>
 
-We explicitly do NOT collect, store, or transmit:
+  <h3>Storage Permission</h3>
+  <ul>
+    <li><strong>Purpose</strong>: Save progress, preferences, and stats</li>
+    <li><strong>Scope</strong>: Limited to extension functionality</li>
+  </ul>
 
-- Personal information (name, email address, phone number)
-- Browsing history or website visit data
-- Location information
-- Device identifiers or hardware information
-- Usage analytics or behavioral tracking data
-- Any data that could identify you personally
-- Communication with external servers or databases
+  <h3>Alarms Permission</h3>
+  <ul>
+    <li><strong>Purpose</strong>: Set daily learning reminder notifications</li>
+    <li><strong>Scope</strong>: Only for scheduled reminders</li>
+  </ul>
 
-## Data Storage
+  <h3>Notifications Permission</h3>
+  <ul>
+    <li><strong>Purpose</strong>: Send motivational learning reminders</li>
+    <li><strong>Scope</strong>: Related only to your learning progress</li>
+  </ul>
 
-All data is stored using Chrome's `chrome.storage.sync` API, which:
-- Stores data locally on your device
-- Syncs across your Chrome browsers when signed into the same Google account
-- Is managed entirely by Chrome's built-in systems
-- Does not involve our servers in any way
+  <h2>Data Security</h2>
+  <ul>
+    <li>All data is stored locally</li>
+    <li>No transmission over networks</li>
+    <li>No external database vulnerabilities</li>
+    <li>Protected by Chrome’s built-in systems</li>
+  </ul>
 
-## Data Sharing
+  <h2>Data Retention</h2>
+  <p>Your data remains until:</p>
+  <ul>
+    <li>You uninstall the extension</li>
+    <li>You reset data through settings</li>
+    <li>You manually clear Chrome extension data</li>
+  </ul>
 
-**We do not share any data with third parties** because we do not collect any data to share. Your learning progress and preferences remain entirely on your device and within your Chrome browser ecosystem.
+  <p>To delete data:</p>
+  <ol>
+    <li>Use “Reset Progress” in Settings tab</li>
+    <li>Uninstall the extension</li>
+    <li>Clear extension data in Chrome settings</li>
+  </ol>
 
-## Third-Party Services
+  <h2>Children’s Privacy</h2>
+  <p>No personal information is knowingly collected from children under 13, making this COPPA-compliant by design.</p>
 
-The extension does not integrate with or send data to any third-party services, analytics platforms, or external APIs.
+  <h2>Changes to This Policy</h2>
+  <p>We may update this Privacy Policy. Any change will update the "Last updated" date above. Continued use after changes implies acceptance.</p>
 
-## Permissions Explained
+  <h2>Contact Information</h2>
+  <p><strong>Developer</strong>: Mohamed C.<br>
+     <strong>Email</strong>: [Your contact email]<br>
+     <strong>GitHub</strong>: [Your GitHub repository URL]</p>
 
-The extension requests the following permissions:
+  <h2>Your Rights</h2>
+  <p>We don’t collect personal data, so traditional rights (access, deletion, portability) don’t apply. You can manage or erase your data anytime through the extension or Chrome’s tools.</p>
 
-### Storage Permission
-- **Purpose**: To save your learning progress, preferences, and game data locally
-- **Scope**: Only stores data related to the extension's functionality
-- **Data**: Learning progress, settings, achievements, quiz states
+  <h2>Compliance</h2>
+  <p>This Privacy Policy complies with:</p>
+  <ul>
+    <li>Chrome Web Store Developer Policies</li>
+    <li>General privacy best practices</li>
+    <li>Browser extension transparency requirements</li>
+  </ul>
 
-### Alarms Permission
-- **Purpose**: To schedule daily learning reminder notifications
-- **Scope**: Only creates alarms for learning reminders at your chosen time
-- **Data**: Notification scheduling information
+  <p class="summary">Summary: We respect your privacy. The extension works offline, stores all data locally, and never shares anything with third parties. You are fully in control.</p>
 
-### Notifications Permission
-- **Purpose**: To remind you about your daily learning goals
-- **Scope**: Only shows notifications related to learning reminders
-- **Data**: Simple text reminders about your learning progress
+  <p><em>Last reviewed: January 2024</em></p>
 
-## Data Security
-
-Since all data is stored locally using Chrome's secure storage API:
-- Data is protected by Chrome's built-in security measures
-- No data transmission over networks
-- No external database vulnerabilities
-- No risk of server breaches or data leaks
-
-## Data Retention
-
-Your data persists as long as:
-- The extension is installed
-- You don't manually clear Chrome's extension data
-- You don't reset progress through the extension's settings
-
-You can delete all data at any time by:
-1. Using the "Reset Progress" button in the extension's Settings tab
-2. Uninstalling the extension
-3. Clearing Chrome's extension data through browser settings
-
-## Children's Privacy
-
-This extension does not knowingly collect personal information from anyone, including children under 13. Since we don't collect any personal data, COPPA compliance is inherently maintained.
-
-## Changes to This Policy
-
-We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date at the top of this policy. Continued use of the extension after changes constitutes acceptance of the updated policy.
-
-## Contact Information
-
-If you have questions about this Privacy Policy or the extension's data practices, please contact:
-
-**Developer**: Mohamed C.  
-**Email**: [Your contact email]  
-**GitHub**: [Your GitHub repository URL]  
-
-## Your Rights
-
-Since we don't collect personal data, traditional data subject rights (access, portability, deletion) don't apply in the usual sense. However, you have complete control over your locally stored learning data through the extension's interface and Chrome's built-in data management tools.
-
-## Compliance
-
-This Privacy Policy complies with:
-- Chrome Web Store Developer Policies
-- General privacy best practices
-- Transparency requirements for browser extensions
-
----
-
-**Summary**: Your privacy is important to us. This extension operates entirely offline, stores data only on your device, and never transmits information to external servers or third parties. Your Spanish learning journey is completely private and under your control.
-
-*Last reviewed: January 2024* 
+</body>
+</html>
